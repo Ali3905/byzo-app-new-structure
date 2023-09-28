@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "64dc7add76dbc3909f62204f"
+  },
+  "bannerUrl": "/banners/bulk-banner.jpg"
+},
+{
+  "_id": {
+    "$oid": "64dc7add76dbc3909f622050"
+  },
+  "bannerUrl": "/banners/bulk-banner.jpg"
+},
+{
+  "_id": {
+    "$oid": "64dc7add76dbc3909f622051"
+  },
+  "bannerUrl": "/banners/bulk-banner.jpg"
+}]

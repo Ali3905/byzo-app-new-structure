@@ -1,0 +1,199 @@
+.account {
+    /* background-color: black; */
+    padding: 45px 120px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+
+    /* overflow: hidden; */
+}
+
+.side_bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.side_bar li {
+    width: 272px;
+    /* height: 52px; */
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 3px solid transparent;
+    background: transparent;
+
+    /* shadow (wed) */
+    box-shadow: 0px 8px 32px 0px transparent;
+
+    list-style: none
+}
+
+.side_bar li:hover {
+    width: 272px;
+    /* height: 52px; */
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 3px solid #EAEAEF;
+    background: #F9F9F9;
+
+    /* shadow (wed) */
+    box-shadow: 0px 8px 32px 0px rgba(18, 16, 37, 0.03);
+
+    list-style: none
+}
+
+.account_details {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    padding: 28px 20px;
+
+    border-radius: 12px;
+border: 1px solid var(--purple-gray-10, #EAEAEF);
+background: var(--white, #FFF);
+}
+
+.account_details .heading_logout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.account_details .heading_logout h6{
+    color: #121025;
+font-family: Plus Jakarta Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+}
+
+.account_details .heading_logout button{
+    padding: 8px 16px;
+    border-radius: 8px;
+border: 1px solid #2F2B5B;
+color: #2F2B5B;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 160% */
+}
+
+.account_details .details_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4px;
+    padding: 14px;
+
+    border-radius: 8px;
+    border: 1px solid var(--purple-gray-10, #EAEAEF);
+    background-color: var(--white, #FFF);
+}
+
+.account_details .details_item p:nth-child(1) {
+    color: #676B78;
+font-family: Plus Jakarta Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 153.846% */
+}
+
+.account_details .details_item p:nth-child(2) {
+    color: #121025;
+font-family: Plus Jakarta Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 160% */
+}
+
+.account_details .details_item:hover {
+    background: rgba(245, 244, 247, 0.50);
+}
+
+.account_details .details_item span {
+    display: flex;
+    gap: 13px;
+}
+
+.details_btn_group{
+    align-self: flex-end;
+
+}
+
+.details_btn_group button{
+    border-radius: 8px;
+border: 1px solid #2F2B5B;
+    padding: 16px 88px;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 141.176% */
+}
+
+/* .details_btn_group button:nth-child(1){
+border-radius: 8px;
+border: 1px solid #2F2B5B;
+padding: 16px 88px;
+} */
+
+.details_btn_group button:nth-child(2){
+    color: white;
+    background-color: #FC7E06;
+border: 1px solid #FC7E06;
+
+margin-left: 12px;
+}
+
+@media (max-width: 768px) {
+    .account{
+        padding: 36px 15px;
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+    }
+.side_bar {
+    display: none
+}
+.account_details {
+    /* flex-grow: 2; */
+    /* height: 100%; */
+    min-height: 80vh;
+    border: none;
+}
+.account_details .heading_logout button{
+    display: none;
+}
+
+.details_btn_group{
+    /* justify-self: flex-end; */
+    margin-top: auto;    
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+
+}
+
+.details_btn_group button:nth-child(2){
+    margin: 0;
+    order: -1;
+
+}
+
+.account_details .heading_logout h6{
+    display: flex;
+    align-items: center;
+}
+
+.account_details .heading_logout h6 img{
+    transform: rotate(180deg)
+};
+
+
+}

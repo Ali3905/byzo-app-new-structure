@@ -1,0 +1,408 @@
+[{
+  "_id": {
+    "$oid": "64dc797076dbc3909f622013"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "100gm"
+    },
+    {
+      "value": "option2",
+      "label": "200gm"
+    },
+    {
+      "value": "option3",
+      "label": "300gm"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f622014"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f622015"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f622016"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f622017"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f622018"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f622019"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f62201a"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f62201b"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f62201c"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f62201d"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f62201e"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f62201f"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f622020"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f622021"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f622022"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+},
+{
+  "_id": {
+    "$oid": "64dc797076dbc3909f622023"
+  },
+  "title": "YADU Natural Sulphurless double refined Sugar",
+  "maxprice": "300",
+  "price": "200",
+  "imageUrl": "/products/product.png",
+  "dropDownOptions": [
+    {
+      "value": "option1",
+      "label": "Option 1"
+    },
+    {
+      "value": "option2",
+      "label": "Option 2"
+    },
+    {
+      "value": "option3",
+      "label": "Option 3"
+    }
+  ],
+  "discount": "40%"
+}]

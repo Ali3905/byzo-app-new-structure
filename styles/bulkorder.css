@@ -1,0 +1,223 @@
+.bulk_order {
+    display: flex;
+    flex-direction: column;
+    gap: 92px;
+    padding: 57px 120px;
+}
+
+/* .bulk_order_banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 55vh;
+    
+    background-image: url("../../public/truckBanner1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bulk_order_banner p {
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-style: normal;
+}
+
+.bulk_order_banner p:nth-child(1) {
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.bulk_order_banner p:nth-child(2) {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.bulk_order_banner p:nth-child(3) {
+    background-color: #fff;
+    padding: 0 58px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 160%;
+} */
+
+.bulk_order_banner img{
+    flex-grow: 2;
+    width: 100%;
+}
+
+.bulk_order_list_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 53px 72px;
+    gap: 85px;
+
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+}
+
+.bulk_order_list_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.bulk_order_list_left h2 {
+    color: var(--dark-black, #0E0D17);
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 86px;
+    /* 179.167% */
+    letter-spacing: -1.44px;
+}
+
+.bulk_order_list_left h2 span {
+    color: #418C51
+}
+
+.bulk_order_list_left p {
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.bulk_order_list_left button {
+    display: flex;
+    padding: 14px 59px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 9px;
+    background: #FC7E06;
+
+    color: var(--light-white, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+
+    border: none;
+}
+
+.bulk_order_list_right {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.bulk_order_list_right h4 {
+    color: var(--greyscale-900, #212121);
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    /* 51.2px */
+}
+
+.bulk_order_list_right p {
+    color: var(--greyscale-900, #212121);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 28.8px */
+    letter-spacing: 0.2px;
+}
+
+.bulk_order_list_right label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-grow: 2;
+    /* height: 320px; */
+    border-radius: 14px;
+    border: 2px dashed #162120;
+    background: #FFF;
+}
+
+.list_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-grow: 2;
+    width: 100%;
+}
+
+.bulk_order_list_right input {
+    display: none;
+}
+
+
+.bulk_order_list_right button {
+    display: none
+}
+
+
+@media (max-width: 768px) {
+
+    .bulk_order {
+        padding: 29px 13px;
+        gap: 17px;
+    }
+    
+    
+.bulk_order_list_section {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding: 19px 10px;
+}
+
+.bulk_order_list_left button {
+    display: none
+}
+.bulk_order_list_left h2 {
+    font-size: 24px;
+    line-height: 43px;
+}
+.bulk_order_list_left p {
+    display: none
+}
+
+
+.bulk_order_list_right button {
+    display: flex;
+    padding: 14px 59px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 9px;
+    background: #FC7E06;
+
+    color: var(--light-white, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+
+    border: none;
+}
+
+.bulk_order_list_right p {
+    display: none;
+}
+
+.bulk_order_list_right h4 {
+    font-size: 20px;
+}
+.bulk_order_list_right label {
+    min-height: 175px;
+}
+
+}
