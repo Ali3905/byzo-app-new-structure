@@ -24,7 +24,7 @@ const BulkOrder = () => {
         <p>BULK ORDER</p>
         <p>within a click</p> */}
         <Image
-          src="/assets/truckBanner1.png"
+          src="/banners/bulk-banner.jpg"
           alt="truck banner"
           width={1000}
           height={300}

@@ -1,7 +1,7 @@
-import categoryData from "@/data/categoryData"
+
 import { useRouter } from "next/navigation";
 
-const Categories = () => {
+const Categories = ({categoryData, heading}) => {
     const router = useRouter()
 
     
@@ -12,7 +12,7 @@ const Categories = () => {
     return (
         <div className="xl:container mx-[5%] xl:mx-auto py-[60px]">
             <h2 className="text-black text-xl md:text-4xl font-bold pb-[20px] md:pb-[48px]">
-                Categories</h2>
+                {heading}</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-8 2xl:grid-cols-10 gap-x-[10px] md:gap-x-[20px] gap-y-[20px] md:gap-y-[40px]">
                 {categoryData.map((data, i) => (
                     <div key={i} onClick={handleClick}>

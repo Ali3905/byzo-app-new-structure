@@ -4,6 +4,8 @@ import Categories from "@/components/homepage/Categories";
 import HeroSection from "@/components/homepage/HeroSection";
 import BrandsSection from "@/components/homepage/BrandSection";
 import MockupSection from "@/components/homepage/MockupSection";
+import categoryData from "@/data/categoryData"
+import BulkOrderSection from "@/components/homepage/BulkOrderSection";
 
 // import { connectDatabase } from "@/utils/mongo"
 
@@ -13,7 +15,9 @@ export default function Home() {
       <HeroSection />
       <ProductsSlider />
       <BannerSlider />
-      <Categories />
+      <Categories heading={"Categories"} categoryData={categoryData}/>
+      <Categories heading={"Explore new Categories"} categoryData={categoryData.slice(0, 16)}/>
+      <BulkOrderSection />
       <BrandsSection />
       <MockupSection />
     </main>
