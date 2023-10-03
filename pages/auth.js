@@ -16,9 +16,10 @@ const Auth = () => {
   const handleChange = (event) => {
     setHouse(event.target.value);
   };
+
   return (
     <>
-      <div className="signin relative">
+      <div className="signin relative hidden">
         {/* <h3>Welcome back</h3> */}
         <div className="welcome"></div>
         <div className="signin_form">
@@ -38,7 +39,7 @@ const Auth = () => {
           </div>
         </div>
       </div>
-      <div className="auth hidden">
+      <div className="auth">
         <h5>Location Information</h5>
         <Image
           className="cross"

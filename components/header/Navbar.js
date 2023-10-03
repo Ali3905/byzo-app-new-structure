@@ -3,8 +3,10 @@
 import React, { useState } from 'react'
 import Dropdown from './Dropdown'
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 const NavBar = () => {
+  const router = useRouter()
   const [selectedOption, setSelectedOption] = useState("");
   const options = [
       { value: "option1", label: "Option 1" },
@@ -38,8 +40,8 @@ const NavBar = () => {
 
       <input type="text" name='search' id='search' placeholder='Search for Products..' />
       </label>
-      <button className='btn_primary btn_login'>Log in</button>
-      <button className='btn_primary btn_cart'>
+      <button className='btn_primary btn_login' onClick={()=> router.push("/auth")}>Log in</button>
+      <button className='btn_primary btn_cart' onClick={()=> router.push("/cart")}>
         <img src="/icons/cart-shopping.svg" alt="cart" id='cart' />
         My Cart
       </button>

@@ -70,7 +70,7 @@ const Category = () => {
       <div className="category_items_parent">
         <div>
           <h3>Categories you may like</h3>
-          <div>
+          <div className="arrows">
             <img
               src="/assets/arrowLeft.svg"
               alt="previous"

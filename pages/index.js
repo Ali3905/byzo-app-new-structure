@@ -6,6 +6,7 @@ import BrandsSection from "@/components/homepage/BrandSection";
 import MockupSection from "@/components/homepage/MockupSection";
 import categoryData from "@/data/categoryData"
 import BulkOrderSection from "@/components/homepage/BulkOrderSection";
+import Auth from "./auth";
 
 // import { connectDatabase } from "@/utils/mongo"
 
@@ -20,6 +21,7 @@ export default function Home() {
       <BulkOrderSection />
       <BrandsSection />
       <MockupSection />
+      {/* <Auth /> */}
     </main>
   );
 }

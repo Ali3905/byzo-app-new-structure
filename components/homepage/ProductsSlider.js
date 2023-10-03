@@ -3,11 +3,14 @@ import RightArrow from "../product_card/RightArrow";
 import LeftArrow from "../product_card/LeftArrow";
 import productData from "@/data/productData";
 import ProductCard from "../product_card/ProductCard";
+import { useEffect, useState } from "react";
 
 const ProductsSlider = () => {
+  const [currentSlide, setCurrentSlide] = useState(null)
+
   const settings = {
-    nextArrow: <RightArrow />,
-    prevArrow: <LeftArrow />,
+    nextArrow: <RightArrow bg_color={currentSlide>0?"#418C51":"white"} color={currentSlide>0?"white" :"black"}  />,
+    prevArrow: <LeftArrow bg_color={currentSlide>0?"white":"#418C51"} color={currentSlide>0?"#418C51" :"white"} />,
     infinite: false,
     dots: false,
     speed: 500,
@@ -16,6 +19,10 @@ const ProductsSlider = () => {
     pauseOnHover: true,
     pauseOnFocus: true,
     slidesToShow: 6,
+    afterChange: (oldIndex, newIndex) => {
+        // console.log(oldIndex);
+        setCurrentSlide(oldIndex)
+      },
     responsive: [
       {
         breakpoint: 1550,
@@ -62,9 +69,13 @@ const ProductsSlider = () => {
       },
     ],
   };
+  
+  useEffect(()=>{
+    // console.log(currentSlide);
+  },[currentSlide])
 
   return (
-    <div className="xl:container mx-[5%] xl:mx-auto py-[30px] first-letter:md:py-[57px] relative">
+    <div className="xl:container mx-[5%] xl:mx-auto py-[30px] first-letter:md:py-[57px] relative cursor-pointer">
       <h3 className="text-xl md:text-4xl text-[#000] font-bold pb-[10px]">
         Products you may like
       </h3>

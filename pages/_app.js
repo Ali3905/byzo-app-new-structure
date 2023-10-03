@@ -8,6 +8,7 @@ import "@/styles/bulkorder.css";
 import "@/styles/category.css";
 import "@/styles/productdetails.css";
 import "@/styles/similarproducts.css";
+import "@/styles/Cart.css"
 
 export default function App({ Component, pageProps }) {
   return (
