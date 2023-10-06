@@ -18,6 +18,10 @@ body{
   padding: 15px;
 }
 
+.bg_green{
+  background: #418C51;
+}
+
 /* ------ Navbar module --------*/
 .nav {
   display: flex;

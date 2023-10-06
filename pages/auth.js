@@ -7,11 +7,14 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select, { SelectChangeEvent } from "@mui/material/Select";
+import { useRouter } from "next/navigation";
 
 const Auth = () => {
   const [house, setHouse] = useState("");
   const [address, setAddress] = useState("");
   const [landmark, setLandmark] = useState("");
+
+  const router = useRouter()
 
   const handleChange = (event) => {
     setHouse(event.target.value);
@@ -39,7 +42,9 @@ const Auth = () => {
           </div>
         </div>
       </div>
-      <div className="auth">
+<div className="w-screen h-screen absolute top-0 left-0 bg-[rgb(0,0,0,.7)]">
+  
+<div className="auth">
         <h5>Location Information</h5>
         <Image
           className="cross"
@@ -47,6 +52,7 @@ const Auth = () => {
           width={20}
           height={20}
           alt="cross"
+          onClick={()=>router.push("/")}
         />
         <div className="auth_container">
           <div className="map"></div>
@@ -146,6 +152,7 @@ const Auth = () => {
           </form>
         </div>
       </div>
+</div>
     </>
   );
 };
