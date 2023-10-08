@@ -14,7 +14,8 @@ const productData = [
         id: "3", weight: "300gm", price: 300, imageUrl: "/products/product2-3.jpg",
       },
     ],
-    discount: "40%"
+    discount: "40%",
+    category : "grocery"
   },
   {
     id: "2",
@@ -31,7 +32,8 @@ const productData = [
         id: "3", weight: "350gm", price: 350, imageUrl: "/products/product2-3.jpg",
       },
     ],
-    discount: "40%"
+    discount: "40%",
+    category : "coffee"
   },
   {
     id: "3",
@@ -48,7 +50,8 @@ const productData = [
         id: "3", weight: "380gm", price: 380, imageUrl: "/products/product2-3.jpg",
       },
     ],
-    discount: "40%"
+    discount: "40%",
+    category : "coffee"
   },
   {
     id: "4",
@@ -65,7 +68,8 @@ const productData = [
         id: "3", weight: "3000gm", price: 3000, imageUrl: "/products/product2-3.jpg",
       },
     ],
-    discount: "40%"
+    discount: "40%",
+    category : "coffee"
   },
   {
     id: "5",
@@ -82,7 +86,8 @@ const productData = [
         id: "3", weight: "300gm", price: 300, imageUrl: "/products/product2-3.jpg",
       },
     ],
-    discount: "40%"
+    discount: "40%",
+    category : "grocery"
   },
   {
     id: "6",
@@ -99,7 +104,8 @@ const productData = [
         id: "3", weight: "350gm", price: 350, imageUrl: "/products/product2-3.jpg",
       },
     ],
-    discount: "40%"
+    discount: "40%",
+    category : "coffee"
   },
   {
     id: "7",
@@ -116,7 +122,8 @@ const productData = [
         id: "3", weight: "380gm", price: 380, imageUrl: "/products/product2-3.jpg",
       },
     ],
-    discount: "40%"
+    discount: "40%",
+    category : "coffee"
   },
   {
     id: "8",
@@ -133,7 +140,9 @@ const productData = [
         id: "3", weight: "3000gm", price: 3000, imageUrl: "/products/product2-3.jpg",
       },
     ],
-    discount: "40%"
+    discount: "40%",
+    category : "coffee"
+
   },
  
 ];

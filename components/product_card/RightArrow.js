@@ -13,7 +13,7 @@ const RightArrow = ({ onClick, bg_color, color, changeArrow }) => {
       style={{
         "backgroundColor" : `${bg_color}`
       }}>
-        <FaArrowRightLong className={`text-[${color}] text-sm md:text-xl`} />
+        <FaArrowRightLong className={`text-${color} text-sm md:text-xl`} />
       </div>
     </div>
   );

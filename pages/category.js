@@ -3,8 +3,10 @@
 import Image from "next/image";
 import ProductCard from "@/components/product_card/ProductCard";
 import productData from "@/data/productData";
+import { useEffect, useState } from "react";
 
 const Category = () => {
+  const [products, setProducts] = useState([])
   const category_items = [
     {
       img: "/assets/category.png",
@@ -12,7 +14,7 @@ const Category = () => {
     },
     {
       img: "/assets/category.png",
-      title: "Coffee",
+      title: "Grocery",
     },
     {
       img: "/assets/category.png",
@@ -20,7 +22,7 @@ const Category = () => {
     },
     {
       img: "/assets/category.png",
-      title: "Coffee",
+      title: "Grocery",
     },
     {
       img: "/assets/category.png",
@@ -28,9 +30,20 @@ const Category = () => {
     },
     {
       img: "/assets/category.png",
-      title: "Coffee",
+      title: "Grocery",
     },
   ];
+
+  const handleChangeCategory = (category)=>{
+    const filteredProducts = productData.filter((ele)=>{
+      return ele.category === category
+    })
+    setProducts(filteredProducts)
+  }
+
+  useEffect(()=>{
+    setProducts(productData)
+  },[])
 
   return (
     <div className="category">
@@ -83,7 +96,7 @@ const Category = () => {
         <div className="category_items_container">
           {category_items.map((ele, i) => {
             return (
-              <div className="category_item" key={i}>
+              <div className="category_item" key={i} onClick={()=>handleChangeCategory(ele.title.toLocaleLowerCase())}>
                 <Image src={ele.img} width={58} height={45} alt={ele.title} />
                 <p>{ele.title}</p>
               </div>
@@ -91,7 +104,7 @@ const Category = () => {
           })}
         </div>
         <div className="category_products">
-          {productData.map((data, i) => (
+          {products.map((data, i) => (
             <ProductCard data={data} key={i} />
           ))}
         </div>

@@ -13,7 +13,7 @@ const LeftArrow = ({ onClick, bg_color, color, changeArrow }) => {
       style={{
         "backgroundColor" : `${bg_color}`
       }}>
-        <FaArrowLeftLong className={`text-[${color}] text-sm md:text-xl`} />
+        <FaArrowLeftLong className={`text-${color} text-sm md:text-xl`} />
       </div>
     </div>
   );

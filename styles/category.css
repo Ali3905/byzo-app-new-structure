@@ -50,6 +50,7 @@
   max-width: 218px;
   border-radius: 20px;
   color: #3f3f3f;
+  cursor: pointer;
 }
 
 .category_item p {

@@ -13,8 +13,8 @@ const ProductsSlider = () => {
   }
 
   const settings = {
-    nextArrow: <RightArrow bg_color={currentSlide==="right"?"green":""} color={currentSlide>0?"white" :"black"} changeArrow={changeArrow} />,
-    prevArrow: <LeftArrow bg_color={currentSlide==="left"?"green":""} color={currentSlide>0?"#418C51" :"white"} changeArrow={changeArrow} />,
+    nextArrow: <RightArrow bg_color={currentSlide==="right"?"green":""} color={currentSlide==="right"?"white" :"black"} changeArrow={changeArrow} />,
+    prevArrow: <LeftArrow bg_color={currentSlide==="left"?"green":""} color={currentSlide==="left"?"white" :"black"} changeArrow={changeArrow} />,
     infinite: false,
     dots: false,
     speed: 500,
